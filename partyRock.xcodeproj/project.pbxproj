@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AADABBD51D85D690004C2B0A /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADABBD41D85D690004C2B0A /* PartyCell.swift */; };
+		AADABBD71D85E168004C2B0A /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADABBD61D85E168004C2B0A /* PartyRock.swift */; };
 		AAE55B861D84A1C2002A64AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55B851D84A1C2002A64AC /* AppDelegate.swift */; };
-		AAE55B881D84A1C2002A64AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55B871D84A1C2002A64AC /* ViewController.swift */; };
+		AAE55B881D84A1C2002A64AC /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55B871D84A1C2002A64AC /* mainVC.swift */; };
 		AAE55B8B1D84A1C2002A64AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE55B891D84A1C2002A64AC /* Main.storyboard */; };
 		AAE55B8D1D84A1C2002A64AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE55B8C1D84A1C2002A64AC /* Assets.xcassets */; };
 		AAE55B901D84A1C2002A64AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE55B8E1D84A1C2002A64AC /* LaunchScreen.storyboard */; };
 		AAE55B9B1D84A1C2002A64AC /* partyRockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55B9A1D84A1C2002A64AC /* partyRockTests.swift */; };
 		AAE55BA61D84A1C2002A64AC /* partyRockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55BA51D84A1C2002A64AC /* partyRockUITests.swift */; };
+		AAE55BB71D84BAE1002A64AC /* adrip1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE55BB61D84BAE1002A64AC /* adrip1.ttf */; };
+		AAE55BBC1D84BEFF002A64AC /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE55BBB1D84BEFF002A64AC /* VideoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AADABBD41D85D690004C2B0A /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		AADABBD61D85E168004C2B0A /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 		AAE55B821D84A1C2002A64AC /* partyRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = partyRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE55B851D84A1C2002A64AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAE55B871D84A1C2002A64AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAE55B871D84A1C2002A64AC /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
 		AAE55B8A1D84A1C2002A64AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE55B8C1D84A1C2002A64AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE55B8F1D84A1C2002A64AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		AAE55BA11D84A1C2002A64AC /* partyRockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = partyRockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE55BA51D84A1C2002A64AC /* partyRockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partyRockUITests.swift; sourceTree = "<group>"; };
 		AAE55BA71D84A1C2002A64AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE55BB61D84BAE1002A64AC /* adrip1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = adrip1.ttf; sourceTree = "<group>"; };
+		AAE55BBB1D84BEFF002A64AC /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		AAE55B841D84A1C2002A64AC /* partyRock */ = {
 			isa = PBXGroup;
 			children = (
+				AAE55BB81D84BAFF002A64AC /* files */,
+				AAE55BB61D84BAE1002A64AC /* adrip1.ttf */,
+				AAE55BB51D84A29C002A64AC /* controller */,
+				AAE55BB41D84A294002A64AC /* view */,
+				AAE55BB31D84A28E002A64AC /* model */,
 				AAE55B851D84A1C2002A64AC /* AppDelegate.swift */,
-				AAE55B871D84A1C2002A64AC /* ViewController.swift */,
 				AAE55B891D84A1C2002A64AC /* Main.storyboard */,
 				AAE55B8C1D84A1C2002A64AC /* Assets.xcassets */,
 				AAE55B8E1D84A1C2002A64AC /* LaunchScreen.storyboard */,
@@ -123,6 +135,38 @@
 				AAE55BA71D84A1C2002A64AC /* Info.plist */,
 			);
 			path = partyRockUITests;
+			sourceTree = "<group>";
+		};
+		AAE55BB31D84A28E002A64AC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AADABBD61D85E168004C2B0A /* PartyRock.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		AAE55BB41D84A294002A64AC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AADABBD41D85D690004C2B0A /* PartyCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		AAE55BB51D84A29C002A64AC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAE55B871D84A1C2002A64AC /* mainVC.swift */,
+				AAE55BBB1D84BEFF002A64AC /* VideoVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		AAE55BB81D84BAFF002A64AC /* files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +279,7 @@
 				AAE55B901D84A1C2002A64AC /* LaunchScreen.storyboard in Resources */,
 				AAE55B8D1D84A1C2002A64AC /* Assets.xcassets in Resources */,
 				AAE55B8B1D84A1C2002A64AC /* Main.storyboard in Resources */,
+				AAE55BB71D84BAE1002A64AC /* adrip1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE55B881D84A1C2002A64AC /* ViewController.swift in Sources */,
+				AAE55BBC1D84BEFF002A64AC /* VideoVC.swift in Sources */,
+				AAE55B881D84A1C2002A64AC /* mainVC.swift in Sources */,
+				AADABBD71D85E168004C2B0A /* PartyRock.swift in Sources */,
+				AADABBD51D85D690004C2B0A /* PartyCell.swift in Sources */,
 				AAE55B861D84A1C2002A64AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +553,7 @@
 				AAE55BAC1D84A1C2002A64AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE55BAD1D84A1C2002A64AC /* Build configuration list for PBXNativeTarget "partyRockTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +562,7 @@
 				AAE55BAF1D84A1C2002A64AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAE55BB01D84A1C2002A64AC /* Build configuration list for PBXNativeTarget "partyRockUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +571,7 @@
 				AAE55BB21D84A1C2002A64AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
